@@ -25,13 +25,13 @@ https://developer.spotify.com/web-api/
         * `$ cd authorization_code`
     * Edit app.js
         * Fill in your app info here from the app you just registered:
-            ``` sh 
+            ``` 
             var client_id = ''; // Your client id 
             var client_secret = ''; // Your secret 
             var redirect_uri = ''; // Your redirect uri 
             ```
         * Add `'playlist-modify-public'` and `'playlist-modify-private'` to permissions here:
-            ```sh
+            ```
             // your application requests authorization
             var scope = 'user-read-private user-read-email'
             ```
